@@ -78,7 +78,7 @@ html {
   border-color: var(--terciary-color);
 }
 
-.main {
+.juegos {
   margin: 0 auto;
   max-width: 70%;
   background-color: var(--terciary-color);
@@ -87,37 +87,47 @@ html {
   justify-content: center;
 }
 
-.main * h3 {
+.juegos * h3 {
+  margin: 0;
   font-size: 2rem;
   color: white;
+  padding: 2rem;
 }
 
-.main * span {
+.juegos * span {
   color: white;
   font-size: 1.5rem;
 }
 
-.main > div,
-.main .transparent {
+.juegos > section {
   width: 200px;
   height: 300px;
   border-radius: 10%;
-}
-
-.main .transparent {
-  background-color: var(--fifty-color);
-}
-
-.main > div {
   margin: 0.5rem;
-  background-color: var(--secondary-color);
+}
+
+.juegos * div {
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
   text-align: center;
 }
 
-.main > div:hover {
-  border: thick solid gold;
-  color: black;
+.juegos > section {
+  background-color: var(--secondary-color);
 }
+
+.juegos * div {
+  background-color: var(--secondary-color);
+  transition: 0.5s 0.2s all;
+}
+
+.juegos * div:hover {
+  border: thick solid gold;
+  background-color: black;
+  opacity: 30%;
+}
+
 .footer {
   max-width: 80%;
   background-color: var(--primary-color);
