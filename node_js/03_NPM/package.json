@@ -1,0 +1,11 @@
+{
+  "name": "primero-pasos-npm",
+  "version": "1.0.0",
+  "description": "En este proyecto aprendemos NPH",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ALexumaDW",
+  "license": "ISC"
+}
