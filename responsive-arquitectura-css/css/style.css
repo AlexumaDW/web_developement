@@ -19,3 +19,8 @@ min-width: 280px;
 max-height: 480px;
 min-height: 280px;
 }
+
+img, audio, video, iframe, canvas, svg, picture {
+    max-width:100%;
+    height: auto;
+  }
